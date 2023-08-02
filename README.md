@@ -1,4 +1,4 @@
-# ORB-SLAM2
+# COEB-SLAM
 COEB-SLAM is a robust visual SLAM system designed for dynamic environments, primarily addressing issues such as motion blur and frame loss.
 
 # 1.  Getting Started
