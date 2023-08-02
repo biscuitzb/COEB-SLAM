@@ -1,5 +1,5 @@
 # COEB-SLAM
-COEB-SLAM is a robust visual SLAM system designed for dynamic environments, primarily addressing issues such as motion blur and frame loss.COEB-SLAM mainly made modifications to the feature point processing part in the system's front end, enabling the system to eliminate dynamic feature points.
+COEB-SLAM is a robust visual SLAM system designed for dynamic environments, primarily addressing issues such as motion blur and frame loss. COEB-SLAM mainly made modifications to the feature point processing part in the system's front end, enabling the system to eliminate dynamic feature points.
 
 # 1.  Getting Started
 - Install ORB-SLAM2 prerequisites: C++11 or C++0x Compiler, Pangolin, OpenCV and Eigen3 (https://github.com/raulmur/ORB_SLAM2).
