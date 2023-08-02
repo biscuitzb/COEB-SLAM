@@ -17,7 +17,7 @@ chmod +x build.sh
 ```
 
 ## RGB-D Example on TUM Dataset
-- Download a sequence from http://vision.in.tum.de/data/datasets/rgbd-dataset/download and uncompress it.
+- Download a sequence from http://vision.in.tum.de/data/datasets/rgbd-dataset/download and uncompress it. Please download the bag file.
 
 - Associate RGB images and depth images executing the python script [associate.py](http://vision.in.tum.de/data/datasets/rgbd-dataset/tools):
 
@@ -26,9 +26,10 @@ chmod +x build.sh
   ```
 These associations files are given in the folder `./Examples/RGB-D/associations/` for the TUM dynamic sequences.
 
-- Execute the following command. Change `TUMX.yaml` to TUM1.yaml,TUM2.yaml or TUM3.yaml for freiburg1, freiburg2 and freiburg3 sequences respectively. Change `PATH_TO_SEQUENCE_FOLDER` to the uncompressed sequence folder. Change `ASSOCIATIONS_FILE` to the path to the corresponding associations file. 
   ```
-  ./Examples/RGB-D/rgbd_tum Vocabulary/ORBvoc.txt Examples/RGB-D/TUMX.yam
+  roslaunch yolov5.launch
+  rosrun ORB_SLAM2 RGBD Vocabulary/ORBvoc.txt Examples/RGB-D/tum_bag.yaml
+  rosbag play TUM_DATASET.bag
   ```
 
   
