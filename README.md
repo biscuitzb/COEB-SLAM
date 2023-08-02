@@ -30,3 +30,6 @@ These associations files are given in the folder `./Examples/RGB-D/associations/
   ```
   ./Examples/RGB-D/rgbd_tum Vocabulary/ORBvoc.txt Examples/RGB-D/TUMX.yam
   ```
+
+## Acknowledgements
+Our code builds on [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2).
