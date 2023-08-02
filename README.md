@@ -4,6 +4,7 @@ COEB-SLAM is a robust visual SLAM system designed for dynamic environments, prim
 # 1.  Getting Started
 - Install ORB-SLAM2 prerequisites: C++11 or C++0x Compiler, Pangolin, OpenCV and Eigen3 (https://github.com/raulmur/ORB_SLAM2).
 - Please refer to the official tutorial for the installation environment required to deploy Yolov5.(https://github.com/ultralytics/yolov5)
+- If there are missing files in this source code, please download the official source code of ORB-SLAM2 and replace the \include \src folder.
 
 - Clone this repo:
 ```bash
