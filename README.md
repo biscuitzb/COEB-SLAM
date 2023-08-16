@@ -18,6 +18,11 @@ chmod +x build.sh
 chmod +x build_ros.sh
 .build_ros.sh
 ```
+```
+cd /your/catkin_ws/src
+Copy yolov5 folder here
+cd yolov5/yolov5
+```
 
 ## RGB-D Example on TUM Dataset
 - Download a sequence from http://vision.in.tum.de/data/datasets/rgbd-dataset/download and uncompress it. Please download the bag file.
@@ -30,7 +35,7 @@ chmod +x build_ros.sh
 These associations files are given in the folder `./Examples/RGB-D/associations/` for the TUM dynamic sequences.
 
   ```
-  roslaunch yolov5.launch
+  roslaunch yolov5 yolov5.launch
   rosrun ORB_SLAM2 RGBD Vocabulary/ORBvoc.txt Examples/RGB-D/tum_bag.yaml
   rosbag play TUM_DATASET.bag
   ```
