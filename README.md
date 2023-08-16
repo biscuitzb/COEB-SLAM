@@ -21,7 +21,8 @@ chmod +x build_ros.sh
 ```
 cd /your/catkin_ws/src
 Copy yolov5 folder here
-cd yolov5/yolov5
+Then compile your workspace
+
 ```
 
 ## RGB-D Example on TUM Dataset
