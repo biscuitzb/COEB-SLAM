@@ -15,6 +15,8 @@ cd COEB-SLAM
 cd COEB-SLAM
 chmod +x build.sh
 ./build.sh
+chmod +x build_ros.sh
+.build_ros.sh
 ```
 
 ## RGB-D Example on TUM Dataset
